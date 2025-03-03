@@ -1,5 +1,7 @@
 # streamlit-resume-generator
 
+This is a simple web app built using **Streamlit**, **Google Gemini AI**, and **FPDF** to generate professional resumes.
+
 Live Demo:[CLick here](https://app-resume-generator-pbcucimxf3yzn4xtrxxm34.streamlit.app/)
 
 
