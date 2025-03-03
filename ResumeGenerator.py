@@ -8,9 +8,9 @@ API KEY = "AIzaSyDFbRTCN2WobGyv1dmXmTpXYm5LcKWWHBc"
 import streamlit as st 
 import google.generativeai as genai
 from fpdf import FPDF
+import os
 
-
-genai.configure(api_key="AIzaSyDFbRTCN2WobGyv1dmXmTpXYm5LcKWWHBc")
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 name = st.text_input("Enter Your name ")
