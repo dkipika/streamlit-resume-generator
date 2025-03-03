@@ -1,8 +1,6 @@
 '''
 AI-Powered Resume GeneratorBuild a Streamlit app that takes user input (name, skills, experience, and education)
 and generates a well-structured resume using the Gemini API. Format the output in markdown or PDF format.
-
-API KEY = "AIzaSyDFbRTCN2WobGyv1dmXmTpXYm5LcKWWHBc"
 '''
 
 import streamlit as st 
