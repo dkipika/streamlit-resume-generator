@@ -16,7 +16,6 @@ model = genai.GenerativeModel("gemini-2.0-flash")
 st.header("Sentiment Analysis of User Input")
 User_input = st.text_input("Enter Your Text")
 
-response = model.generate_content(f"Sentiment (positive, negative, or neutral) Analysis of User Input which is {User_input} and display the result with a confidence score")
-
 if User_input:
+    response = model.generate_content(f"Sentiment (positive, negative, or neutral) Analysis of User Input which is {User_input} and display the result with a confidence score")
     st.write(response.text)
